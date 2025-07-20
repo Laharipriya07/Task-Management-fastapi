@@ -16,6 +16,20 @@ This project supports user management, task assignment, status updates, and filt
 
 ---
 
+## Folder Structure
+```
+TaskManagementApi/
+├── main.py
+├── create_db.py
+├── database.py
+├── models/
+├── schemas/
+├── services/
+├── routers/
+├── requirements.txt
+└── README.md
+
+```
 ## How to Run This Project
 
 ### 1. Clone or Unzip this folder  
@@ -110,19 +124,4 @@ Response:
     "user_id": 1
   }
 ]
-```
-
-## Folder Structure
-
-```
-TaskManagementApi/
-├── main.py
-├── create_db.py
-├── database.py
-├── models/
-├── schemas/
-├── services/
-├── routers/
-├── requirements.txt
-└── README.md
 ```
